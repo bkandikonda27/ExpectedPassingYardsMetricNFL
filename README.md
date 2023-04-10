@@ -68,8 +68,9 @@ Based on the data below, it is difficult to determine the best model for 5-eligi
 
 ## Conclusion
 
-The most important features for predicting Heart Failure are: ST Slope, Chest Pain Type, Oldpeak, Max Heart Rate, and Age.
-I used RFECV to recursively track the most important features and the features mentioned above were always in the final dataset.
+Based on the metrics provided, it seems that the Random Forest model performed the best overall for the 3 datasets. It had the highest accuracy and precision for the 4-receiver set, the highest accuracy and recall for the 3-receiver set, and the highest precision and recall for the 5-receiver set.
+The Logistic Regression model had poor performance across all three datasets, with low precision and recall scores. The KNN model had the highest precision for the 3-receiver set, but overall its performance was also relatively poor compared to the Random Forest model.
 
-Doctor's should actively keep track of ST Slope, Chest Pain Type, Oldpeak, Max Heart Rate, and Age for their patients to check whether or not they are at-risk for Heart Failure.
+Therefore, based on the provided data, it appears that the Random Forest model is the best model for predicting the success of passing plays with different eligible receiver sets. However, it is important to note that additional evaluation metrics and analysis may be needed to fully understand the strengths and weaknesses of each model.
+
 
